@@ -18,7 +18,7 @@ $white:#ffffff;
       display: flex;
       justify-content: space-between;
       line-height: 100px;
-      &__name {
+      &__name a {
         text-decoration: none;
         font-size:16px;
         color: $white;
