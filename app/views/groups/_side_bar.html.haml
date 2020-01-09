@@ -1,0 +1,19 @@
+
+.side-bar
+  .side-bar__user-name
+    .top-items
+      .top-items__name
+        = current_user.name
+      .top-items__icons
+        = link_to edit_user_path(current_user.id) do
+          %i.fa.fa-cog
+        = link_to new_group_path do
+          %i.fa.fa-edit
+  .side-bar__group-list
+    - current_user.groups.each do |group|
+      .group
+        = link_to '#' do
+          .group__name
+            = group.name
+          .group__message
+            メッセージはまだありません。
