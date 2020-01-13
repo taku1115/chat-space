@@ -20,6 +20,5 @@
         = f.label :image, class: "input-box__image" do
           = icon('fa', 'image')
           = f.file_field :image
-      =form_for [@group, @message] do |f|
         = f.submit 'Send', class: 'send-btn'
 

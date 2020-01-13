@@ -139,6 +139,7 @@ $white:#ffffff;
       .form {
         width: 100%;
         position: relative;
+        display: flex;
       }
       &__type-area {
         line-height: 50px;
@@ -152,7 +153,7 @@ $white:#ffffff;
         font-size: 1.3rem;
         position: absolute;
         top: 17px;
-        right: 10px;
+        right:  130px;
       }
     }
     .send-btn {
